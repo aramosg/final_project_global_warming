@@ -37,17 +37,17 @@ Lastly, we want to try to create a predictive model that may forecast the impact
 
 - Questions we hope to answer with the data
 Is there a correlation between the increase of temperature world wide and the number of natural disasters?
-Which countries are mostly affected by these variables during the time period? ****(o solo en los últimos años)
+Which countries are mostly affected by these variables during the time period 1970 to 2020? 
 What is the (economic*****?) impact of these variables in sectors like enterprises or governments?
 
 
 
 ## Description of their source of data (preview plan)
 - Project design 
-Technologies and languages: Python, Jupyter notebook, PGAdmin4,  JavaScript, Mapbox, Tableau 
+Technologies and tools: Pandas, Python, Jupyter notebook, PostgreSQL  JavaScript, Mapbox, Tableau, (Libraries: seaborn, matplot?, ) 
 
 
-### ETL and clean csv creation
+### Data clean up and final database creaiton creation
 For this project freely available, data sources were searched to obtain data sets of quantitative variables that might be implicated with global warming and might be of some impact for the model. 
 
 Datasources and webpages that asked for payment as well as had poor quality or incomplete data for the time period were excluded. 
@@ -66,12 +66,12 @@ https://data.worldbank.org/indicator/SP.POP.GROW?view=chart
 https://data.worldbank.org/indicator/SP.POP.TOTL
 https://ourworldindata.org/natural-disasters
 (cuales son los finales de gdp???*******)
-(lat y long ****)
+https://gist.github.com/tadast/8827699
 
 - Datasets: 
 A total of eight raw datasets were cleaned using python. Unnecessary columns were dropped and incomplete data or extra out of time range data was erased. Countries that changed name during the time period were homogenized to one common name. (islands dropped****** lo agrego?)
 
-Cleaned data was then loaded into PGAdmin4 SQL service to create queries  and export seven csv files with clean relevant variables. 
+Cleaned data was then loaded into PgAdminSQL service to create queries  and export seven csv files with clean relevant variables. 
 The following Entity Relationship Diagram shows the results of this work.     
 
 ![Fig2](erd)
