@@ -53,7 +53,7 @@ For this project freely available, data sources were searched to obtain data set
 Datasources and webpages that asked for payment as well as had poor quality or incomplete data for the time period were excluded. 
 
 Datasets, sources and topics are listed in the table below:
-![Fig1]()
+![Fig1](resources/Table1.png)
 
 
 
@@ -74,7 +74,7 @@ A total of eight raw datasets were cleaned using python. Unnecessary columns wer
 Cleaned data was then loaded into PgAdminSQL service to create queries  and export seven csv files with clean relevant variables. 
 The following Entity Relationship Diagram shows the results of this work.     
 
-![Fig2]()
+![Fig2](sql/final_project_erd.png)
 
 
 As seen in the following image Catalog and abbreviation index was the main key to merge all datasets using for most of them country code to relate one another. Natural disasters dataset however did not have that key, thus the country name was used to relate with the others.   
