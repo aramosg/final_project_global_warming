@@ -55,7 +55,7 @@ Datasources and webpages that asked for payment as well as had poor quality or i
 Datasets, sources and topics are listed in the table below:
 ![Fig1]()
 
-********Foto actualizada, tabla excel drive?
+
 
 - Data sources: A total of eight raw datasets were obtained for the following project from different data sources. For the ETL process, it was important that all chosen datasets had a key-value that could be linked with one another. 
 
@@ -65,7 +65,7 @@ https://ourworldindata.org/grapher/annual-co2-emissions-per-country
 https://data.worldbank.org/indicator/SP.POP.GROW?view=chart
 https://data.worldbank.org/indicator/SP.POP.TOTL
 https://ourworldindata.org/natural-disasters
-(cuales son los finales de gdp???*******)
+https://datos.bancomundial.org/indicador/NV.AGR.TOTL.ZS?view=chart
 https://gist.github.com/tadast/8827699
 
 - Datasets: 
@@ -74,8 +74,8 @@ A total of eight raw datasets were cleaned using python. Unnecessary columns wer
 Cleaned data was then loaded into PgAdminSQL service to create queries  and export seven csv files with clean relevant variables. 
 The following Entity Relationship Diagram shows the results of this work.     
 
-![Fig2](erd)
-******** ERD se agregaran las líneas de relación?
+![Fig2]()
+
 
 As seen in the following image Catalog and abbreviation index was the main key to merge all datasets using for most of them country code to relate one another. Natural disasters dataset however did not have that key, thus the country name was used to relate with the others.   
 
@@ -86,19 +86,17 @@ As seen in the following image Catalog and abbreviation index was the main key t
 ### Visualization
 For the first objective of data visualization, a dashboard using Javascript and Mapbox API as well as graphs using matplot???*** will be used.
 
-(machote de visualización) ********
-https://excalidraw.com/
-
-
 
 ### Logistic regression Model for vulnerable countries
-(****Python?) Dummy model
+Tools: Python Jupyter notebook 
 
 
-### MAchine learning model for predictions
-(****Python?) Dummy model
-
-
+### Machine learning model for predictions
+Tools: R and Python 
+Functions for linear regressions. They will be made for each selected country.
+Temperature = f (Co2, P opulation)
+Disasters = f (T emperature)
+EconomicCosts = f (Disasters)
 
 ### Telling the story
 Tableau will be used to create a story to share our project. 
