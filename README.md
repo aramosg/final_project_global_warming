@@ -100,12 +100,15 @@ Natural disasters dataset however did not have that key, thus the country name w
 For the first objective of data visualization, a dashboard using Javascript and Mapbox API as well as graphs using matplot will be used.
 
 - ![Dash1](resources/dash1.png)
+
 Welcome page featuring an introduction to the problematic where the project was born visually enhancing the story. It will include links to rest of dashboards telling the story![image]
 
 - ![Dash2](resources/dash2.png)
+
 Interactive map featuring dataset worldwide information using  interactive and filter able layers of information
 
 - ![Dash3](resources/dash3.png)
+
 Further exploration using tables enabling interactive filtering of dataset.
 
 ### Logistic regression Model for vulnerable countries
