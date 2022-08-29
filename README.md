@@ -9,29 +9,29 @@ The cost of weather increase and natural disasters- worldwide view
 The following link address slides with the following information: 
 [slides](https://docs.google.com/presentation/d/1_1qjAGMFFEiPVUA5mTcJtNMDeuLhb0oF/edit?usp=sharing&ouid=114301235931032176624&rtpof=true&sd=true) 
 
-## Reason why they selected their topic 
+## Reason why we selected the topic 
 
-Weather seems to behave lately in an erratic and new way that we are yet to understand.
+The weather seems to behave lately in an erratic and new way that we are yet to understand.
 Extreme temperatures and natural disasters might impact huge populations and world economic sectors.
-A variety of aspects need to be taken into consideration with this new weather behaviour (individually and business/enterprise wise). 
+A variety of aspects need to be taken into consideration with this new weather behavior (individually and business/enterprise wise). 
 
-In the following project, we want to try at the very least to provide a clearer understanding of available data and identify statistically significant variables that might be implicated in this complex and evolving worldwide situation. This may provide a light and hopefully offer not only information but also a predictive model that may be the stepping stone of decision making for different enterprises or sectors. 
+In the following project, we want to try at the very least to provide a clearer understanding of available data and identify statistically significant variables that might be implicated in this complex and evolving worldwide situation. This may provide light and hopefully offer not only information but also a predictive model that may be the stepping stone of decision-making for different enterprises or sectors. 
 
 
 ## Project Outline
 - Objective 
-We want to analyse and understand how global warming reflected in temperature change, that has been reported to take place around the world, may influence the occurrence of natural disasters and how these implications may impact in business and the economy. 
+We want to analyze and understand how global warming reflected in temperature change, which has been reported to take place around the world, may influence the occurrence of natural disasters and how these implications may impact business and the economy. 
 
-Our aim is first, using net available data sources, to provide visualization of temperature change around the globe (per country) from 1970 to 2020 along with natural disasters occurrence. Other available variables will be also mapped out, that seem to be associated like: CO2 emissions and population count, and mortality associated with natural disasters. 
+Our aim is first, using net available data sources, to provide visualization of temperature change around the globe (per country) from 1970 to 2020 along with natural disasters occurrence. Other available variables will be also mapped out, that seems to be associated like: CO2 emissions and population count, and mortality associated with natural disasters. 
 
-Second, Using this information, to identify hard variables that may help detect danger zones. We want to find the most affected/vulnerable countries (using mortality and gdp inflation and deflation rate) and create a model trying to find if there is a correlation between these variables or which variables seem to have a higher impact. 
+Second, Using this information, to identify hard variables that may help detect danger zones. We want to find the most affected/vulnerable countries (using mortality and GDP inflation and deflation rate) and create a model trying to find if there is a correlation between these variables or which variables seem to have a higher impact. 
 
-Lastly, we want to try to create a predictive model that may forecast the impact of global warming, natural disasters outcomes in mortality and the economy related variables that may provide important insight to different business and enterprises in decision making or light up red lights that make a call for back-up plans for their survival.  
+Lastly, we want to try to create a predictive model that may forecast the impact of global warming, natural disasters outcomes in mortality and the economy related variables that may provide important insight to different businesses and enterprises in decision making or light up red lights that make a call for back-up plans for their survival.  
 
 
 
 - Questions we hope to answer with the data
-(Is there a correlation between the increase of temperature world wide and the number of natural disasters?)
+(Is there a correlation between the increase of temperature worldwide and the number of natural disasters?)
 
 Identify top 10 countries e most affected by these variables during the time period 19(70) to 2020 (vulnerability)? 
 
@@ -52,8 +52,8 @@ GitHub and Slack
 Technologies and tools: Pandas, Python, Jupyter notebook, PostgreSQL  JavaScript, Mapbox/leaflet.
 
 
-### Data clean up and final database creation
-For this project freely available, data sources were searched to obtain data sets of quantitative variables that might be implicated with global warming and might be of some impact for the model. 
+### Data clean-up and final database creation
+For this project freely available, data sources were searched to obtain data sets of quantitative variables that might be implicated with global warming and might be of some impact on the model. 
 
 Data sources and webpages that asked for payment as well as had poor quality or incomplete data for the time period were excluded. 
 
@@ -100,7 +100,7 @@ Natural disasters dataset however did not have that key, thus the country name w
 For the first objective of data visualization, a dashboard using Javascript and Mapbox API as well as graphs using matplot will be used.
 
 - ![Dash1](resources/dash1.png)
-Welcome page featuring introduction to the problematic where the project was born visually enhancing the story. It will include links to rest of dashboards telling the story![image]
+Welcome page featuring an introduction to the problematic where the project was born visually enhancing the story. It will include links to rest of dashboards telling the story![image]
 
 - ![Dash2](resources/dash2.png)
 Interactive map featuring dataset worldwide information using  interactive and filter able layers of information
