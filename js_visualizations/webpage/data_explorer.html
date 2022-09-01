@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>:: Data Explorer :: - Final Project - Global temperature increase analysis</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/css/styles.css">
+    <script src="static/js/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="container-fluid">
+            <h1 class="display-5">Data Explorer</h1>
+            <div class="row mt-5 mb-3 align-items-center">
+                <div class="col-md-5">
+                    <!-- <button class="btn btn-primary btn-sm" id="rerender">Re-Render</button> -->
+                    <!-- <button class="btn btn-primary btn-sm" id="distory">Distory</button> -->
+                    <button class="btn btn-primary btn-sm" id="refresh">Refresh</button>
+                </div>
+                <div class="col-md-3">
+                  <input type="text" class="form-control" placeholder="Search in table..." id="searchField">
+                </div>
+                <div class="col-md-2 text-right">
+                  <span class="pr-3">Rows Per Page:</span>
+                </div>
+                <div class="col-md-2">
+                    <div class="d-flex justify-content-end">
+                        <select class="custom-select" name="rowsPerPage" id="changeRows">
+                            <option value="1">1</option>
+                            <option value="5" selected>5</option>
+                            <option value="10">10</option>
+                            <option value="15">15</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div id="root"></div>
+            <div class="mt-4">
+                <button class="btn btn-primary btn-sm" id="setPage1">Go to page 1</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <hr>
+        <p>
+            <strong>Welcome to our data explorer...</strong><br>
+            Here it is a table will all the data which enables our Interactive Map. You will find the same statistics, but with a numeric representation:
+            <ul>
+                <li>Average CO2 emissions per country within the analyzed period of time</li>
+                <li>Average temperature increase per country within the analyzed period of time</li>
+                <li>Average number of deaths by natural disasters per country within the analyzed period of time</li>
+            </ul>
+            Use the <em>"Search in table..."</em> field to search a particular country name or code. It is not necessary to write the exact term. Write any term you 
+            want and all coincidences will be found. To reset the table, simply delete your search term. 
+        </p>
+    </div>
+
+    <div style="margin: auto;">
+        <p style="text-align: center;">
+            <a href="/index.html">Home</a> | <a href="/interactive_map.html">Interactive Map</a>
+        </p>
+    </div>
+
+    <script src="static/js/dataExplorer_data.js"></script>
+    <script src="static/js/table-sortable.js"></script>
+    <script>
+        var table = $('#root').tableSortable({
+            data: dataExplorerData,
+            columns: columns,
+            searchField: '#searchField',
+            //sorting: ['country_name', 'country_code', 'avg_emissions', 'avg_deaths', 'avg_temp_increase'],
+            sorting: true,
+            responsive: {
+                1100: {
+                    columns: {
+                        country_name: 'Country Name',
+                        country_code: 'Country Code',
+                    },
+                },
+            },
+            rowsPerPage: 5,
+            pagination: true,
+            tableWillMount: function() {
+                console.log('table will mount')
+            },
+            tableDidMount: function() {
+                console.log('table did mount')
+            },
+            tableWillUpdate: function() {console.log('table will update')},
+            tableDidUpdate: function() {console.log('table did update')},
+            tableWillUnmount: function() {console.log('table will unmount')},
+            tableDidUnmount: function() {console.log('table did unmount')},
+            onPaginationChange: function(nextPage, setPage) {
+                setPage(nextPage);
+            }
+        });
+
+        $('#changeRows').on('change', function() {
+            table.updateRowsPerPage(parseInt($(this).val(), 10));
+        })
+
+        $('#rerender').click(function() {
+            table.refresh(true);
+        })
+
+        $('#distory').click(function() {
+            table.distroy();
+        })
+
+        $('#refresh').click(function() {
+            table.refresh();
+        })
+
+        $('#setPage1').click(function() {
+            table.setPage(0);
+        })
+    </script>
+</body>
+</html>
