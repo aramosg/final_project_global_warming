@@ -102,3 +102,17 @@ select * from viz_avg_temp
 select * from viz_avg_co2_emissions
 select * from viz_avg_deaths_natural_disasters
 
+-----------------
+-----------------
+-- Creating new data explorer viz from new general dataset
+select 
+country_name,
+country_code,
+year,
+annual_co2_emissions_tons,
+( deaths_from_drought + deaths_from_extreme_temps + deaths_from_floods + deaths_from_storms + deaths_from_wildfires) as deaths_from_disasters,
+temperature_change_temp_change_celsius,
+total_count_disasters
+from
+general_dataset_v2;
+
