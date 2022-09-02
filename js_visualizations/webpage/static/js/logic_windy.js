@@ -17,48 +17,10 @@ windyInit(options, (windyAPI) => {
   // windyAPI is ready, and contain 'map', 'store',
   // 'picker' and other usefull stuff
 
-  const { map } = windyAPI;
+  const { store, map } = windyAPI;
   // .map is instance of Leaflet map
 
   //L.popup().setLatLng([50.4, 14.3]).setContent("Hello World").openOn(map);
-
-  let streets = L.tileLayer(
-    "https://api.mapbox.com/styles/v1/mapbox/streets-v11/tiles/{z}/{x}/{y}?access_token={accessToken}",
-    {
-      attribution:
-        'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery (c) <a href="https://www.mapbox.com/">Mapbox</a>',
-      maxZoom: 18,
-      accessToken: API_KEY,
-    }
-  );
-  
-  // We create the second tile layer that will be the background of our map.
-  let satelliteStreets = L.tileLayer(
-    "https://api.mapbox.com/styles/v1/mapbox/satellite-streets-v11/tiles/{z}/{x}/{y}?access_token={accessToken}",
-    {
-      attribution:
-        'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery (c) <a href="https://www.mapbox.com/">Mapbox</a>',
-      maxZoom: 18,
-      accessToken: API_KEY,
-    }
-  );
-  
-  // Deliverable 3 - Adding an additional map
-  let navigationNightMap = L.tileLayer(
-    "https://api.mapbox.com/styles/v1/mapbox/navigation-night-v1/tiles/{z}/{x}/{y}?access_token={accessToken}",
-    {
-      attribution:
-        'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery (c) <a href="https://www.mapbox.com/">Mapbox</a>',
-      maxZoom: 18,
-      accessToken: API_KEY,
-    }
-  );
-
-  let baseMaps = {
-    Streets: streets,
-    Satellite: satelliteStreets,
-    "Navigation night": navigationNightMap
-  };
 
   let co2_emissions_layer = new L.LayerGroup();
   let avg_temp_layer = new L.LayerGroup();
@@ -69,8 +31,6 @@ windyInit(options, (windyAPI) => {
     "Average Temp increase": avg_temp_layer,
     "Deaths from Natural Disasters": natural_disasters_deaths_layer
   };
-
-  L.control.layers(baseMaps, overlays).addTo(map);
 
   let co2Data = co2EmissionsData;
   co2Data.forEach(function (country) {
@@ -135,6 +95,10 @@ windyInit(options, (windyAPI) => {
 //adding layer to map
 natural_disasters_deaths_layer.addTo(map);
 
+
+store.set( 'overlay', 'temp' );
+console.log( ':::: Allowed:' );
+console.log( store.getAllowed( 'overlay' ) );
 
 });
 
