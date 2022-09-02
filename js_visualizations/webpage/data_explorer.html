@@ -33,6 +33,11 @@
                             <option value="5" selected>5</option>
                             <option value="10">10</option>
                             <option value="15">15</option>
+                            <option value="20">20</option>
+                            <option value="25">25</option>
+                            <option value="30">30</option>
+                            <option value="35">35</option>
+                            <option value="50">50</option>
                         </select>
                     </div>
                 </div>
@@ -65,7 +70,7 @@
         </p>
     </div>
 
-    <script src="static/js/dataExplorer_data.js"></script>
+    <script src="static/js/dataExplorer_data_v2.js"></script>
     <script src="static/js/table-sortable.js"></script>
     <script>
         var table = $('#root').tableSortable({
@@ -79,6 +84,7 @@
                     columns: {
                         country_name: 'Country Name',
                         country_code: 'Country Code',
+                        year: 'Year',
                     },
                 },
             },
