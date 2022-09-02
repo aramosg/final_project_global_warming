@@ -113,6 +113,10 @@ annual_co2_emissions_tons,
 ( deaths_from_drought + deaths_from_extreme_temps + deaths_from_floods + deaths_from_storms + deaths_from_wildfires) as deaths_from_disasters,
 temperature_change_temp_change_celsius,
 total_count_disasters
+into viz_general_table_v2
 from
-general_dataset_v2;
+general_dataset_v2
+order by country_name ASC, country_code ASC, year ASC;
+
+select * from viz_general_table_v2;
 
