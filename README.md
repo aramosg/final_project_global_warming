@@ -6,72 +6,157 @@ Data Analytics Bootcamp - Final Project - Team Global Warming
 The cost of weather increase and natural disasters- worldwide view
  Keywords: Earth temperature – natural disasters - cost
 
+The following link address slides with the following information: 
+[slides](https://docs.google.com/presentation/d/1_1qjAGMFFEiPVUA5mTcJtNMDeuLhb0oF/edit?usp=sharing&ouid=114301235931032176624&rtpof=true&sd=true) 
+
+## Reason why we selected the topic 
+
+The weather seems to behave lately in an erratic and new way that we are yet to understand.
+Extreme temperatures and natural disasters might impact huge populations and world economic sectors.
+A variety of aspects need to be taken into consideration with this new weather behavior (individually and business/enterprise wise). 
+
+In the following project, we want to try at the very least to provide a clearer understanding of available data and identify statistically significant variables that might be implicated in this complex and evolving worldwide situation. This may provide light and hopefully offer not only information but also a predictive model that may be the stepping stone of decision-making for different enterprises or sectors. 
 
 
-## Reason why they selected their topic 
-
-Out of the norm hot days have been the headers of news in multiple countries. It is not only in those places were notorious, now longer, hot summers are common, but lately hot days for countries that hardly lived through a hot environment have been the talk in news and media in multiple countries. Weather seems to behave lately in an erratic and new way that we are yet to understand, compared to what was catalogued as the normal temperature behaviour in the different parts of the world in the past.
-
-Just as with the develop of new technologies, that let us survive nature in extreme situations and natural dissasters, this worldwide temperature alteration, affect in multiple ways (rural, suburban, urban/ habitats/ places) and living beings are now pushed to adapt to these new changes to try to withstand new temperatures within their land. 
-
-In human habitats, there’s a variety of aspects that each individual need to take into consideration with this new weather behaviour to fulfil their daily life routine, it ranges from mild modifications like clothing, liquids consumption or technologies like aircon, fans or other measures to counter the heat, to more drastic situations that could even endanger health with disease outsprings, like in the case of direct temperature affectation in heat stroke in risk population like elderly and kids, leading to morbidity and mortality. This has been a special worry when the infrastructure or technologies are scarce or lost due to accidental factors, like natural disasters or low resources, even in first world countries. 
-
-Humans are not the only affected by temperature, surroundings and animals’ cattle and other living beings are affected by the temperature, important for human survival. It could have from positive to negative range of outcomes. Longer hot summer days with other optimal conditions, have been reported to overgrow vegetables   for example or other crops triggered by this longer warm environment. There’s also the other side of the coin were these extreme temperatures leaning in levels of natural disasters, were crops are lost over extreme unusual temperatures affecting a huge population and economy sectors.  
-
-Natural disasters implications (**pending**)
-
-
+## Project Outline
 - Objective 
-We wanted to analyse and understand the temperature modifications that have been taking place and contrast it with natural disasters reported within a year, to objectively analyse if there’s a correlation as well as to see if there has been a statistically significant and the evolution from previous years. 
+We want to analyze and understand how global warming reflected in temperature change, which has been reported to take place around the world, may influence the occurrence of natural disasters and how these implications may impact business and the economy. 
 
-We wanted to analyse and understand the temperature modifications that have been taking place and contrast it with natural disasters reported within a year, to objectively analyse if there’s a correlation as well as to see if there has been a statistically significant and the evolution from previous years. 
+Our aim is first, using net available data sources, to provide visualization of temperature change around the globe (per country) from 1970 to 2020 along with natural disasters occurrence. Other available variables will be also mapped out, that seems to be associated like: CO2 emissions and population count, and mortality associated with natural disasters. 
 
+Second, Using this information, to identify hard variables that may help detect danger zones. We want to find the most affected/vulnerable countries (using mortality and GDP inflation and deflation rate) and create a model trying to find if there is a correlation between these variables or which variables seem to have a higher impact. 
 
-The impact of this findings are then associated with economical variables like (**pending**) 
-
-Our objective was to analyse weather temperature from 1970 to 2020 worldwide as well as reports of natural disasters and economical metric implications to try to understand the impact of this recent crisis. 
-This data could have an impact and benefit different sectors including, economy, and industries, health. 
-One sector we would like to make an example for the use of our following analysis is the agricultural sector. As described before there are reports how weather and temperatures have a huge impact in crops and grains development. A big list of food and beverages industries need to know and understand temperature differences when investing and the develop of their products. 
+Lastly, we want to try to create a predictive model that may forecast the impact of global warming, natural disasters outcomes in mortality and the economy related variables that may provide important insight to different businesses and enterprises in decision making or light up red lights that make a call for back-up plans for their survival.  
 
 
 
+- Questions we hope to answer with the data
+(Is there a correlation between the increase of temperature worldwide and the number of natural disasters?)
 
-### Description of their source of data (preview plan)
-- Variables
-Temperature, Temperaturas extremas
+Identify top 10 countries e most affected by these variables during the time period 19(70) to 2020 (vulnerability)? 
 
-Población
-Emisiones (bióxido de carbono)
-Temperature related Natural Disasters 
-Costos por los desastres
-Tiempo: Mundial 1970 al 2020
+What is the (economic) number of affected people impact of these variables in sectors like enterprises or governments?
+
+(Can we find strong variables to make predictions about this vulnerability and estimate economic impact? )
 
 
+## Communication protocols
+GitHub and Slack
 
 
-Questions they hope to answer with the data
-Is there a correlation of temperature increase world wide and the number of natural disasters?
-What is the impact of this variables in sectors like economy?
+![Chronograme](resources/chronograme.png)
+- Chronogram of the whole project 
 
-We want to offer a machine learning model able to describe the role of this variables and the impact it has in (variable economica). 
-We want to offer a machine learning model able to describe the role of this variables and the impact it has in (variable economica).
-Is there a correlation between the increase of temperature world wide and the number of natural disasters?
-
-What is the impact of this variables in sectors like economy?
+## Description of their source of data (preview plan)
+- Project design 
+Technologies and tools: Pandas, Python, Jupyter notebook, PostgreSQL  JavaScript, Mapbox/leaflet.
 
 
-### (Material y métodos) (descripcion de a grandes rasgos las herramientas que usaremos) 
-Modelo machine learning , regression, logistica (supervised machine learning)
-Pasos: 
-(Sql integración de datos/ python?) 
-Python limpieza, machine learning
-Visualización tableu y sitio (dash)
+### Data clean-up and final database creation
+For this project freely available, data sources were searched to obtain data sets of quantitative variables that might be implicated with global warming and might be of some impact on the model. 
+
+Data sources and webpages that asked for payment as well as had poor quality or incomplete data for the time period were excluded. 
+
+Datasets, sources and topics are listed in the table below:
+
+![Fig2](resources/Dataste1.png)
 
 
 
-(extra) Acotamiento y que daos vamos a dar 
-(machote de visualización) 
-https://excalidraw.com/
+- Data sources: A total of eight raw datasets were obtained for the following project from different data sources. For the ETL process, it was important that all chosen datasets had a key-value that could be linked with one another. 
+
+Data sources list: 
+
+[Fig1](resources/Datasources1.png)
+
+https://www.fao.org/faostat/en/#data/ET
+
+https://ourworldindata.org/grapher/annual-co2-emissions-per-country
+
+https://data.worldbank.org/indicator/SP.POP.GROW?view=chart
+
+https://data.worldbank.org/indicator/SP.POP.TOTL
+
+https://ourworldindata.org/natural-disasters
+
+https://datos.bancomundial.org/indicador/NV.AGR.TOTL.ZS?view=chart
+
+https://gist.github.com/tadast/8827699
+
+
+
+Cleaned data was then loaded into PgAdminSQL service to create queries  and export seven csv files with clean relevant variables. 
+The following Entity Relationship Diagram shows the results of this work.     
+
+![image](sql/final_project_erd.png)
+
+
+As seen in the following image Country Coordinates Catalogue and Country Code index was the primary key to merge all datasets using for most of them country code and year as foreign key to relate one another.
+
+Natural disasters dataset however did not have that key, thus the country name was used to relate with the others.
+
+
+### Visualization
+For the first objective of data visualization, a dashboard using Javascript and Mapbox API as well as graphs using matplot will be used.
+
+- ![Dash1](resources/dash1.png)
+
+Welcome page featuring an introduction to the problematic where the project was born visually enhancing the story. It will include links to rest of dashboards telling the story![image]
+
+- ![Dash2](resources/dash2.png)
+
+Interactive map featuring dataset worldwide information using  interactive and filter able layers of information
+
+- ![Dash3](resources/dash3.png)
+
+Further exploration using tables enabling interactive filtering of dataset.
+
+### Logistic regression Model for vulnerable countries
+Tools: Python Jupyter notebook 
+
+
+### Machine learning model for predictions
+- Tools: Python for robust linear regressions, Random Forest Regressor Model 
+
+They will be made for each selected country. 
+
+- To test: 
+EconomicCosts = f (Total number of deaths, people affected per 100,000, Temperature and CO2 )
+
+
+- Preliminary data pre-processing:
+"Vulnerable" countries were selected according to economy reports. 
+https://germanwatch.org/sites/default/files/Resumen%20Indice%20de%20Riesgo%20Clim%C3%A1tico%20Global%202021.pdf
+
+
+- Preliminary feature engineering and feature selection. Decision making process:
+
+- Data split into training and testing sets
+
+- Explanation of model choice, limitations and benefits.
+
+
+### Model of choice: Robust Models, Random Forest.
+
+Models to be tested: 
+Tools: Python Jupyter notebook
+
+Logistic Regression Model
+Random Forest Regressor Model 
+ 
+- Limitation: Lack of continuity in certain variables 
+Outliers due to the nature of measured variable
+Dealing with discrete variables 
+
+- Benefits: Preserve data absolute values
+Weighted outliers
+Statistic weight
+Model allows to fit new variables
+Prediction potential
+
+
+### Telling the story
+Tableau will be used to create a story to share our project.
 
 
 
