@@ -1,4 +1,4 @@
-function initDemoMap(){
+function initMap(){
 
     var Esri_WorldImagery = L.tileLayer('http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
         attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, ' +
@@ -154,7 +154,7 @@ function initDemoMap(){
 }
 
 // demo map
-var mapStuff = initDemoMap();
+var mapStuff = initMap();
 var map = mapStuff.map;
 var layerControl = mapStuff.layerControl;
 var handleError = function(err){
