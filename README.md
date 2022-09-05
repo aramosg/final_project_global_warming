@@ -7,7 +7,7 @@ The cost of weather increase and natural disasters- worldwide view
  Keywords: Earth temperature – natural disasters - cost
 
 The following link address slides with the following information: 
-[slides](https://docs.google.com/presentation/d/1_1qjAGMFFEiPVUA5mTcJtNMDeuLhb0oF/edit?usp=sharing&ouid=114301235931032176624&rtpof=true&sd=true) 
+[slides](https://docs.google.com/presentation/d/1NoE9vUd6RThqdDHh4d1OVyLSLFeM9awF/edit?usp=sharing&ouid=114301235931032176624&rtpof=true&sd=true) 
 
 ## Reason why we selected the topic 
 
@@ -15,12 +15,12 @@ The weather seems to behave lately in an erratic and new way that we are yet to 
 Extreme temperatures and natural disasters might impact huge populations and world economic sectors.
 A variety of aspects need to be taken into consideration with this new weather behavior (individually and business/enterprise wise). 
 
-In the following project, we want to try at the very least to provide a clearer understanding of available data and identify statistically significant variables that might be implicated in this complex and evolving worldwide situation. This may provide light and hopefully offer not only information but also a predictive model that may be the stepping stone of decision-making for different enterprises or sectors. 
+In the following project, we want to try at the very least to provide a clearer understanding of available data and identify statistically significant variables that might be implicated in this complex and evolving worldwide situation. This may provide light and hopefully offer not only information but also point to a model that may be the stepping stone of decision-making for different enterprises or sectors. 
 
 
 ## Project Outline
 - Objective 
-We want to analyze and understand how global warming reflected in temperature change, which has been reported to take place around the world, may influence the occurrence of natural disasters and how these implications may impact business and the economy. 
+We want to analyze and understand if global warming reflected as temperature change may influence the occurrence of natural disasters and how these implications may impact the economy.
 
 Our aim is first, using net available data sources, to provide visualization of temperature change around the globe (per country) from 1970 to 2020 along with natural disasters occurrence. Other available variables will be also mapped out, that seems to be associated like: CO2 emissions and population count, and mortality associated with natural disasters. 
 
@@ -31,13 +31,16 @@ Lastly, we want to try to create a predictive model that may forecast the impact
 
 
 - Questions we hope to answer with the data
-(Is there a correlation between the increase of temperature worldwide and the number of natural disasters?)
 
-Identify top 10 countries e most affected by these variables during the time period 19(70) to 2020 (vulnerability)? 
+Is there a correlation between the increase of temperature of the sampled country and the number of natural disasters? 
 
-What is the (economic) number of affected people impact of these variables in sectors like enterprises or governments?
 
-(Can we find strong variables to make predictions about this vulnerability and estimate economic impact? )
+Can we identify the most relevant variables that can predict the impact to GDP due to natural disasters? What are those?
+
+
+Which model(s) can more accurately predict the impact to GDP due to natural disasters?
+
+
 
 
 ## Communication protocols
@@ -53,17 +56,21 @@ Technologies and tools: Pandas, Python, Jupyter notebook, PostgreSQL  JavaScript
 
 
 ### Data clean-up and final database creation
-For this project freely available, data sources were searched to obtain data sets of quantitative variables that might be implicated with global warming and might be of some impact on the model. 
+Freely available, reliable data sources were searched to obtain data sets, quantitative variables implicated with natural disasters
+
+
 
 Data sources and webpages that asked for payment as well as had poor quality or incomplete data for the time period were excluded. 
 
 Datasets, sources and topics are listed in the table below:
 
-![Fig2](resources/Dataste1.png)
+![Fig2](resources/Dataset.png)
 
 
 
-- Data sources: A total of eight raw datasets were obtained for the following project from different data sources. For the ETL process, it was important that all chosen datasets had a key-value that could be linked with one another. 
+- Data sources: A total of eight raw datasets were obtained from different data sources. For the cleaning data and correlation process, it was important that all chosen datasets had a key-value that could be linked with one another.
+
+
 
 Data sources list: 
 
@@ -83,27 +90,22 @@ https://datos.bancomundial.org/indicador/NV.AGR.TOTL.ZS?view=chart
 
 https://gist.github.com/tadast/8827699
 
+A total of eight raw datasets were cleaned using python. Unnecessary columns and data was eliminated. Countries that changed name during the time period were homogenized to one common name.
 
 
-Cleaned data was then loaded into PgAdminSQL service to create queries  and export seven csv files with clean relevant variables. 
-The following Entity Relationship Diagram shows the results of this work.     
+Cleaned data was then loaded into PgAdminSQL service to create queries and export seven csv files with clean relevant variables. 
 
 ![image](sql/final_project_erd.png)
-
-
-As seen in the following image Country Coordinates Catalogue and Country Code index was the primary key to merge all datasets using for most of them country code and year as foreign key to relate one another.
-
-Natural disasters dataset however did not have that key, thus the country name was used to relate with the others.
 
 
 ### Visualization
 For the first objective of data visualization, a dashboard using Javascript and Mapbox API as well as graphs using matplot will be used.
 
-- ![Dash1](resources/dash1.png)
+- ![Dash1](resources/dash1)
 
-Welcome page featuring an introduction to the problematic where the project was born visually enhancing the story. It will include links to rest of dashboards telling the story![image]
+Welcome page featuring an introduction to the problematic where the project was born visually enhancing the story. It will include links to rest of dashboards telling the story
 
-- ![Dash2](resources/dash2.png)
+- ![Dash2](resources/dash2)
 
 Interactive map featuring dataset worldwide information using  interactive and filter able layers of information
 
@@ -115,33 +117,41 @@ Further exploration using tables enabling interactive filtering of dataset.
 Tools: Python Jupyter notebook 
 
 
-### Machine learning model for predictions
-- Tools: Python for robust linear regressions, Random Forest Regressor Model 
+### Machine learning model 
+- Tools: Python for Linear Regression, Robust Linear Regression, Random Forest Regressor Model 
+They will be applied for each selected country. 
 
-They will be made for each selected country. 
 
 - To test: 
-EconomicCosts = f (Total number of deaths, people affected per 100,000, Temperature and CO2 )
+Equation:
+Economic damage as share of GDP = f (Total number of deaths, people affected per 100k, CO2 emissions, population, temperature anomalies, total count disasters)
+
+
 
 
 - Preliminary data pre-processing:
+
 "Vulnerable" countries were selected according to economy reports. 
-https://germanwatch.org/sites/default/files/Resumen%20Indice%20de%20Riesgo%20Clim%C3%A1tico%20Global%202021.pdf
+
+Articles: 
+
+[VulnerableCountries](https://germanwatch.org/sites/default/files/Resumen%20Indice%20de%20Riesgo%20Clim%C3%A1tico%20Global%202021.pdf)
+
+[ArticlePakistan](https://www.nature.com/articles/d41586-022-02813-6?utm_source=Nature+Briefing&utm_ca[…]02&utm_medium=email&utm_term=0_c9dfd39373-dc4c023d09-45884258)
 
 
-- Preliminary feature engineering and feature selection. Decision making process:
+-  Decision making process: Preliminary feature engineering and feature selection.
+Multiple Models were tested to understand variables and their relevance using the equation. 
 
-- Data split into training and testing sets
-
-- Explanation of model choice, limitations and benefits.
+Data was split into training and testing sets. And the multiple models were run for selected countries.  
 
 
-### Model of choice: Robust Models, Random Forest.
+### Explanation of model choice, limitations and benefits.
 
-Models to be tested: 
-Tools: Python Jupyter notebook
+ Model of choice: Linear Regression, Random Forest.
 
-Logistic Regression Model
+
+Linear Regression Model
 Random Forest Regressor Model 
  
 - Limitation: Lack of continuity in certain variables 
@@ -156,7 +166,8 @@ Prediction potential
 
 
 ### Telling the story
-Tableau will be used to create a story to share our project.
+Slides and navigation in webpage 
+[Link to Homepage]() 
 
 
 
