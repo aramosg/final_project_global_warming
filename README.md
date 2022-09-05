@@ -64,7 +64,7 @@ Data sources and webpages that asked for payment as well as had poor quality or 
 
 Datasets, sources and topics are listed in the table below:
 
-![Fig2](resources/Dataset.png)
+![Fig2](resources/Dataset2.png)
 
 
 
@@ -101,11 +101,11 @@ Cleaned data was then loaded into PgAdminSQL service to create queries and expor
 ### Visualization
 For the first objective of data visualization, a dashboard using Javascript and Mapbox API as well as graphs using matplot will be used.
 
-- ![Dash1](resources/dash1)
+- ![Dash1](resources/lighttest.png)
 
 Welcome page featuring an introduction to the problematic where the project was born visually enhancing the story. It will include links to rest of dashboards telling the story
 
-- ![Dash2](resources/dash2)
+- ![Dash2](resources/map.png)
 
 Interactive map featuring dataset worldwide information using  interactive and filter able layers of information
 
