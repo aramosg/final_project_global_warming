@@ -109,7 +109,7 @@ Welcome page featuring an introduction to the problematic where the project was 
 
 Interactive map featuring dataset worldwide information using  interactive and filter able layers of information
 
-- ![Dash3](resources/dash3.png)
+- ![Dash3](resources/dataexplorer.png)
 
 Further exploration using tables enabling interactive filtering of dataset.
 
