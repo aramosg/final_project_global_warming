@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>:: Interactive Map :: - Final Project - Global temperature increase analysis</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    
+        <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+        integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+        crossorigin="" />
+
+    <!-- Our CSS -->
+    <link rel="stylesheet" type="text/css" href="static/css/style.css">
+</head>
+
+<body style="background-color:rgba(232, 226, 231);">
+
+    <!-- Title -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 , style="color: rgb(27, 72, 94)" class="display-5">Interactive Map</h1>
+                <hr>
+            </div>
+        </div>
+    </div>
+    <!-- Map -->
+    <div id="mapid" style="max-width: 85%; max-height: 700px; margin:auto">
+    </div>
+
+    <!-- Map description -->
+    <div class="container-fluid">
+        <div class="row">
+            <div style="color: rgb(34, 54, 60)", class="col-md-12">
+                <hr>
+                <strong>Welcome to our interactive map</strong><br>
+                Please, explore this map which exposes three different average metrics:
+                <ul>
+                    <li style="color: rgb(52, 76, 83)">Average CO2 emissions per country within the analyzed period of time</li>
+                    <li style="color: rgb(134, 51, 31)">Average temperature increase per country within the analyzed period of time</li>
+                    <li style="color: rgb(131, 122, 62)">Average number of deaths by natural disasters per country within the analyzed period of time</li>
+                </ul>
+                Feel free to activate/deactivate the different layers of information and discover the relationship between the presented data sets. You can also 
+                change the map type to the one that better suit your preferences. 
+                <br>
+                <br>
+            </div>
+        </div>
+    </div>
+
+    <div style="margin: auto;">
+        <p style="text-align: center;">
+            <a style="color: rgb(89, 54, 112)", href="/index.html">Home</a> | <a style="color: rgb(70, 131, 128)", href="/data_explorer.html">Data Explorer</a>
+        </p>
+    </div>
+    
+
+    <!---->
+    <!---->
+    <!---->
+    <!-- Leaflet JavaScript -->
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+        integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+        crossorigin=""></script>
+
+    <!-- API key -->
+    <script type="text/javascript" src="static/js/config.js"></script>
+    
+    <!-- CO2 Data -->
+    <script type="text/javascript" src="static/js/co2_emissions_json.js"></script>
+    <!-- Average Temp increase Data -->
+    <script type="text/javascript" src="static/js/avg_temp_increase.js"></script>
+    <!-- Average Temp increase Data -->
+    <script type="text/javascript" src="static/js/avg_deaths_nat_disasters.js"></script>
+    
+    <!-- Our JavaScript -->
+    <script type="text/javascript" src="static/js/logic.js"></script>
+
+</body>
+
+</html>

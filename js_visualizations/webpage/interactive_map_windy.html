@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>:: Interactive Map :: - Final Project - Global temperature increase analysis</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+
+    <!-- Leaflet  -->
+    <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"></script>
+
+    <!-- WINDY -->
+    <script src="https://api.windy.com/assets/map-forecast/libBoot.js"></script>
+
+    <style>
+        #windy {
+            width: 80%;
+            height: 700px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Map -->
+    <div id="windy">
+    </div>
+
+    <!-- API key -->
+    <script type="text/javascript" src="static/js/config.js"></script>
+
+    <!-- CO2 Data -->
+    <script type="text/javascript" src="static/js/co2_emissions_json.js"></script>
+    <!-- Average Temp increase Data -->
+    <script type="text/javascript" src="static/js/avg_temp_increase.js"></script>
+    <!-- Average Temp increase Data -->
+    <script type="text/javascript" src="static/js/avg_deaths_nat_disasters.js"></script>
+
+    <!-- Our JavaScript -->
+    <script type="text/javascript" src="static/js/logic_windy.js"></script>
+
+</body>
+
+</html>

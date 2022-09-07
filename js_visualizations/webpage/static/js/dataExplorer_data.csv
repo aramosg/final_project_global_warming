@@ -1,0 +1,400 @@
+country_name,country_code, avg_emissions , avg_deaths , avg_temp_increase 
+Afghanistan,AFG," 3,575,028.2353 ", 185.976 , 0.614 
+Albania,ALB," 4,825,846.4902 ", 5.381 , 0.546 
+Algeria,DZA," 87,474,226.7451 ", 51.686 , 0.770 
+Angola,AGO," 13,047,201.7843 ", 35.875 , 0.641 
+Anguilla,AIA," 110,363.5161 ", 0.800 , 0.463 
+Antigua and Barbuda,ATG," 348,526.4118 ", 1.000 , 0.449 
+Argentina,ARG," 135,585,047.5098 ", 19.674 , 0.342 
+Armenia,ARM," 5,792,959.9804 ", 0.556 , 1.046 
+Australia,AUS," 304,697,435.6471 ", 27.531 , 0.546 
+Austria,AUT," 63,075,835.5686 ", 14.633 , 0.918 
+Azerbaijan,AZE," 39,097,252.9608 ", 2.667 , 1.070 
+Bahamas,BHS," 3,084,765.5098 ", 24.059 , 0.547 
+Bangladesh,BGD," 29,744,362.5490 "," 10,403.200 ", 0.248 
+Barbados,BRB," 998,388.5686 ", 0.500 , 0.334 
+Belarus,BLR," 75,234,628.4314 ", 5.083 , 1.475 
+Belgium,BEL," 117,413,796.8824 ", 153.323 , 1.457 
+Belize,BLZ," 351,869.6471 ", 4.600 , 0.506 
+Benin,BEN," 2,156,607.9412 ", 8.727 , 0.663 
+Bhutan,BTN," 376,335.1569 ", 41.833 , 0.353 
+Bolivia,BOL," 9,895,628.3529 ", 31.947 , 0.420 
+Bolivia,BOL," 9,895,628.3529 ", 31.947 , 0.420 
+Bolivia,BOL," 9,895,628.3529 ", 31.947 , 0.420 
+Bolivia,BOL," 9,895,628.3529 ", 31.947 , 0.420 
+Bolivia,BOL," 9,895,628.3529 ", 31.947 , 0.420 
+Bolivia,BOL," 9,895,628.3529 ", 31.947 , 0.420 
+Bolivia,BOL," 9,895,628.3529 ", 31.947 , 0.420 
+Bolivia,BOL," 9,895,628.3529 ", 31.947 , 0.420 
+Bolivia,BOL," 9,895,628.3529 ", 31.947 , 0.420 
+Bolivia,BOL," 9,895,628.3529 ", 31.947 , 0.420 
+Bolivia,BOL," 9,895,628.3529 ", 31.947 , 0.420 
+Bolivia,BOL," 9,895,628.3529 ", 31.947 , 0.420 
+Bolivia,BOL," 9,895,628.3529 ", 31.947 , 0.420 
+Bolivia,BOL," 9,895,628.3529 ", 31.947 , 0.420 
+Bolivia,BOL," 9,895,628.3529 ", 31.947 , 0.420 
+Bolivia,BOL," 9,895,628.3529 ", 31.947 , 0.420 
+Bosnia and Herzegovina,BIH," 15,972,220.7647 ", 2.929 , 1.215 
+Botswana,BWA," 3,069,421.6327 ", 2.867 , 0.518 
+Brazil,BRA," 295,826,879.4118 ", 129.021 , 0.632 
+Brunei,BRN," 6,288,406.4314 ", -   , 0.456 
+Brunei,BRN," 6,288,406.4314 ", -   , 0.456 
+Brunei,BRN," 6,288,406.4314 ", -   , 0.456 
+Brunei,BRN," 6,288,406.4314 ", -   , 0.456 
+Brunei,BRN," 6,288,406.4314 ", -   , 0.456 
+Brunei,BRN," 6,288,406.4314 ", -   , 0.456 
+Brunei,BRN," 6,288,406.4314 ", -   , 0.456 
+Brunei,BRN," 6,288,406.4314 ", -   , 0.456 
+Brunei,BRN," 6,288,406.4314 ", -   , 0.456 
+Brunei,BRN," 6,288,406.4314 ", -   , 0.456 
+Brunei,BRN," 6,288,406.4314 ", -   , 0.456 
+Brunei,BRN," 6,288,406.4314 ", -   , 0.456 
+Brunei,BRN," 6,288,406.4314 ", -   , 0.456 
+Brunei,BRN," 6,288,406.4314 ", -   , 0.456 
+Brunei,BRN," 6,288,406.4314 ", -   , 0.456 
+Brunei,BRN," 6,288,406.4314 ", -   , 0.456 
+Bulgaria,BGR," 62,070,910.0000 ", 8.143 , 0.547 
+Burkina Faso,BFA," 1,242,376.5490 ", 7.115 , 0.683 
+Burundi,BDI," 243,979.3333 ", 19.579 , 0.602 
+Cambodia,KHM," 2,998,072.1961 ", 72.292 , 0.497 
+Cameroon,CMR," 4,099,952.4118 ", 5.955 , 0.569 
+Canada,CAN," 491,586,943.4902 ", 5.583 , 0.748 
+Cape Verde,CPV," 248,816.2941 ", 4.000 , 1.210 
+Central African Republic,CAF," 184,616.6275 ", 1.136 , 0.552 
+Chad,TCD," 490,604.1176 ", 167.100 , 0.564 
+Chile,CHL," 47,420,816.7843 ", 23.947 , 0.251 
+China,CHN," 4,429,449,683.7451 "," 1,719.479 ", 0.636 
+Colombia,COL," 58,739,680.4706 ", 69.490 , 0.396 
+Comoros,COM," 100,940.3529 ", 5.214 , 0.276 
+Congo,COG," 1,475,184.9020 ", 4.364 , 0.520 
+Costa Rica,CRI," 4,772,737.2157 ", 7.588 , 0.237 
+Croatia,HRV," 18,180,009.9804 ", 53.688 , 1.280 
+Cuba,CUB," 26,987,690.2941 ", 7.211 , 0.606 
+Cyprus,CYP," 5,414,247.7451 ", 7.625 , 0.437 
+Denmark,DNK," 53,415,875.3922 ", 2.000 , 0.826 
+Djibouti,DJI," 348,146.3137 ", 12.600 , 0.642 
+Dominica,DMA," 90,303.3333 ", 11.667 , 0.451 
+Dominican Republic,DOM," 14,194,575.1373 ", 90.813 , 0.677 
+Ecuador,ECU," 22,413,471.7059 ", 24.861 , 0.471 
+Egypt,EGY," 116,117,736.6078 ", 60.722 , 0.336 
+El Salvador,SLV," 4,256,122.4902 ", 54.897 , 0.554 
+Eritrea,ERI," 660,367.0000 ", 0.600 , 0.629 
+Estonia,EST," 24,324,964.8039 ", 3.667 , 1.496 
+Ethiopia,ETH," 4,873,196.5686 "," 11,180.056 ", 0.999 
+Fiji,FJI," 876,031.0000 ", 12.235 , 0.446 
+Finland,FIN," 53,550,425.0588 ", -   , 0.915 
+France,FRA," 411,373,113.0784 ", 615.957 , 0.785 
+French Guiana,GUF," 527,669.5098 ", -   , 0.545 
+French Polynesia,PYF," 541,754.3333 ", 1.600 , 0.408 
+Gabon,GAB," 4,955,593.9216 ", 0.250 , 0.435 
+Gambia,GMB," 264,649.8824 ", 4.722 , 0.968 
+Georgia,GEO," 9,841,552.9804 ", 3.211 , 0.927 
+Germany,DEU," 938,493,318.6078 ", 334.724 , 0.861 
+Ghana,GHA," 6,764,183.2745 ", 24.591 , 0.690 
+Greece,GRC," 74,506,527.0588 ", 40.026 , 0.333 
+Grenada,GRD," 154,330.0588 ", 6.500 , 0.421 
+Guadeloupe,GLP," 1,581,784.0392 ", 1.083 , 0.457 
+Guatemala,GTM," 8,209,961.4902 ", 85.605 , 0.540 
+Guinea,GIN," 1,552,873.2353 ", 2.444 , 0.701 
+Guinea-Bissau,GNB," 186,359.8039 ", 1.091 , 0.892 
+Guyana,GUY," 1,697,203.2549 ", 3.091 , 0.528 
+Haiti,HTI," 1,397,195.4510 ", 257.270 , 0.774 
+Honduras,HND," 4,777,470.3333 ", 613.872 , 0.532 
+Hong Kong,HKG," 30,436,031.2745 ", 15.875 , 0.422 
+Hungary,HUN," 65,985,076.8431 ", 50.458 , 0.750 
+Iceland,ISL," 2,535,978.7255 ", -   , 0.437 
+India,IND," 984,714,193.6667 "," 2,601.157 ", 0.325 
+Indonesia,IDN," 262,883,446.2941 ", 204.400 , 0.393 
+Iraq,IRQ," 84,964,978.1373 ", 10.286 , 0.566 
+Ireland,IRL," 34,341,376.2549 ", 2.250 , 0.509 
+Israel,ISR," 43,689,160.1961 ", 6.133 , 0.364 
+Italy,ITA," 402,452,979.0588 ", 447.681 , 0.676 
+Jamaica,JAM," 8,085,610.6471 ", 10.960 , 0.645 
+Japan,JPN," 1,099,992,624.3725 ", 111.740 , 0.381 
+Jordan,JOR," 13,429,464.3529 ", 10.500 , 0.385 
+Kazakhstan,KAZ," 222,343,298.9608 ", 10.529 , 1.271 
+Kenya,KEN," 8,279,133.9608 ", 67.206 , 0.505 
+Kiribati,KIR," 38,086.4706 ", 0.600 , 0.482 
+South Korea,KOR," 353,015,871.6471 ", 108.318 , 0.540 
+South Korea,KOR," 353,015,871.6471 ", 108.318 , 0.540 
+South Korea,KOR," 353,015,871.6471 ", 108.318 , 0.540 
+South Korea,KOR," 353,015,871.6471 ", 108.318 , 0.540 
+South Korea,KOR," 353,015,871.6471 ", 108.318 , 0.540 
+South Korea,KOR," 353,015,871.6471 ", 108.318 , 0.540 
+South Korea,KOR," 353,015,871.6471 ", 108.318 , 0.540 
+South Korea,KOR," 353,015,871.6471 ", 108.318 , 0.540 
+South Korea,KOR," 353,015,871.6471 ", 108.318 , 0.540 
+South Korea,KOR," 353,015,871.6471 ", 108.318 , 0.540 
+South Korea,KOR," 353,015,871.6471 ", 108.318 , 0.540 
+South Korea,KOR," 353,015,871.6471 ", 108.318 , 0.540 
+South Korea,KOR," 353,015,871.6471 ", 108.318 , 0.540 
+South Korea,KOR," 353,015,871.6471 ", 108.318 , 0.540 
+South Korea,KOR," 353,015,871.6471 ", 108.318 , 0.540 
+South Korea,KOR," 353,015,871.6471 ", 108.318 , 0.540 
+Kuwait,KWT," 51,611,042.1176 ", 1.500 , 0.651 
+Kyrgyzstan,KGZ," 12,440,315.0588 ", 1.842 , 1.028 
+Latvia,LVA," 13,596,545.5098 ", 15.333 , 1.452 
+Lebanon,LBN," 13,383,316.0588 ", 4.900 , 0.463 
+Lesotho,LSO," 2,063,943.6129 ", 4.467 , 0.518 
+Liberia,LBR," 909,059.7843 ", 1.400 , 0.704 
+Libya,LBY," 40,011,365.8824 ", 6.667 , 0.433 
+Libya,LBY," 40,011,365.8824 ", 6.667 , 0.433 
+Libya,LBY," 40,011,365.8824 ", 6.667 , 0.433 
+Libya,LBY," 40,011,365.8824 ", 6.667 , 0.433 
+Libya,LBY," 40,011,365.8824 ", 6.667 , 0.433 
+Libya,LBY," 40,011,365.8824 ", 6.667 , 0.433 
+Libya,LBY," 40,011,365.8824 ", 6.667 , 0.433 
+Libya,LBY," 40,011,365.8824 ", 6.667 , 0.433 
+Libya,LBY," 40,011,365.8824 ", 6.667 , 0.433 
+Libya,LBY," 40,011,365.8824 ", 6.667 , 0.433 
+Libya,LBY," 40,011,365.8824 ", 6.667 , 0.433 
+Libya,LBY," 40,011,365.8824 ", 6.667 , 0.433 
+Libya,LBY," 40,011,365.8824 ", 6.667 , 0.433 
+Libya,LBY," 40,011,365.8824 ", 6.667 , 0.433 
+Libya,LBY," 40,011,365.8824 ", 6.667 , 0.433 
+Libya,LBY," 40,011,365.8824 ", 6.667 , 0.433 
+Lithuania,LTU," 22,744,465.0000 ", 11.556 , 1.416 
+Luxembourg,LUX," 10,581,405.1961 ", 24.286 , 0.854 
+Macao,MAC," 1,081,587.9804 ", 5.000 , 0.422 
+Madagascar,MDG," 1,721,903.2941 ", 80.289 , 0.436 
+Malawi,MWI," 848,995.4510 ", 48.800 , 0.594 
+Malaysia,MYS," 115,242,521.1176 ", 18.290 , 0.544 
+Maldives,MDV," 498,224.8200 ", -   , 0.421 
+Mali,MLI," 1,207,279.3333 ", 6.542 , 0.765 
+Marshall Islands,MHL," 117,819.0345 ", -   , 0.365 
+Martinique,MTQ," 1,661,890.6078 ", 4.750 , 0.445 
+Mauritania,MRT," 1,454,901.4314 ", 3.667 , 0.942 
+Mauritius,MUS," 2,165,562.8824 ", 2.438 , 0.349 
+Mexico,MEX," 346,397,753.2353 ", 127.725 , 0.457 
+Mongolia,MNG," 14,935,681.3529 ", 14.842 , 1.013 
+Montenegro,MNE," 1,760,512.2353 ", 0.200 , 1.102 
+Montserrat,MSR," 30,800.4706 ", 1.833 , 0.449 
+Morocco,MAR," 32,359,908.2549 ", 43.966 , 0.870 
+Mozambique,MOZ," 2,750,694.6275 "," 2,804.135 ", 0.403 
+Myanmar,MMR," 10,214,103.0980 "," 4,112.353 ", 0.497 
+Myanmar,MMR," 10,214,103.0980 "," 4,112.353 ", 0.497 
+Myanmar,MMR," 10,214,103.0980 "," 4,112.353 ", 0.497 
+Myanmar,MMR," 10,214,103.0980 "," 4,112.353 ", 0.497 
+Myanmar,MMR," 10,214,103.0980 "," 4,112.353 ", 0.497 
+Myanmar,MMR," 10,214,103.0980 "," 4,112.353 ", 0.497 
+Myanmar,MMR," 10,214,103.0980 "," 4,112.353 ", 0.497 
+Myanmar,MMR," 10,214,103.0980 "," 4,112.353 ", 0.497 
+Myanmar,MMR," 10,214,103.0980 "," 4,112.353 ", 0.497 
+Myanmar,MMR," 10,214,103.0980 "," 4,112.353 ", 0.497 
+Myanmar,MMR," 10,214,103.0980 "," 4,112.353 ", 0.497 
+Myanmar,MMR," 10,214,103.0980 "," 4,112.353 ", 0.497 
+Myanmar,MMR," 10,214,103.0980 "," 4,112.353 ", 0.497 
+Myanmar,MMR," 10,214,103.0980 "," 4,112.353 ", 0.497 
+Myanmar,MMR," 10,214,103.0980 "," 4,112.353 ", 0.497 
+Myanmar,MMR," 10,214,103.0980 "," 4,112.353 ", 0.497 
+Namibia,NAM," 2,534,642.8667 ", 12.571 , 0.707 
+Nepal,NPL," 3,210,170.8039 ", 172.565 , 0.289 
+Netherlands,NLD," 163,857,845.0196 ", 112.240 , 0.840 
+New Caledonia,NCL," 2,729,630.3725 ", 1.571 , 0.396 
+New Zealand,NZL," 27,809,786.5294 ", 1.300 , 0.345 
+Nicaragua,NIC," 3,234,112.7059 ", 118.429 , 0.502 
+Niger,NER," 890,819.4314 ", 22.964 , 0.678 
+Nigeria,NGA," 74,068,034.5490 ", 84.250 , 0.664 
+Norway,NOR," 38,186,086.4118 ", 0.455 , 0.779 
+Oman,OMN," 24,519,878.2157 ", 22.769 , 0.456 
+Pakistan,PAK," 96,427,594.5098 ", 398.667 , 0.359 
+Palau,PLW," 193,161.2745 ", -   , 0.689 
+Panama,PAN," 5,633,948.7843 ", 10.303 , 0.412 
+Papua New Guinea,PNG," 3,238,306.9608 ", 10.237 , 0.384 
+Paraguay,PRY," 3,366,480.2549 ", 9.889 , 0.365 
+Peru,PER," 30,875,044.9608 ", 97.367 , 0.568 
+Philippines,PHL," 62,492,547.0196 ", 915.510 , 0.521 
+Poland,POL," 362,155,973.0196 ", 74.065 , 0.808 
+Portugal,PRT," 43,800,120.6471 ", 127.464 , 0.690 
+Qatar,QAT," 40,086,299.6667 ", -   , 0.662 
+Romania,ROU," 130,546,290.2353 ", 38.294 , 0.621 
+Russia,RUS," 1,799,156,787.7059 "," 2,188.037 ", 0.948 
+Russia,RUS," 1,799,156,787.7059 "," 2,188.037 ", 0.948 
+Russia,RUS," 1,799,156,787.7059 "," 2,188.037 ", 0.948 
+Russia,RUS," 1,799,156,787.7059 "," 2,188.037 ", 0.948 
+Russia,RUS," 1,799,156,787.7059 "," 2,188.037 ", 0.948 
+Russia,RUS," 1,799,156,787.7059 "," 2,188.037 ", 0.948 
+Russia,RUS," 1,799,156,787.7059 "," 2,188.037 ", 0.948 
+Russia,RUS," 1,799,156,787.7059 "," 2,188.037 ", 0.948 
+Russia,RUS," 1,799,156,787.7059 "," 2,188.037 ", 0.948 
+Russia,RUS," 1,799,156,787.7059 "," 2,188.037 ", 0.948 
+Russia,RUS," 1,799,156,787.7059 "," 2,188.037 ", 0.948 
+Russia,RUS," 1,799,156,787.7059 "," 2,188.037 ", 0.948 
+Russia,RUS," 1,799,156,787.7059 "," 2,188.037 ", 0.948 
+Russia,RUS," 1,799,156,787.7059 "," 2,188.037 ", 0.948 
+Russia,RUS," 1,799,156,787.7059 "," 2,188.037 ", 0.948 
+Russia,RUS," 1,799,156,787.7059 "," 2,188.037 ", 0.948 
+Rwanda,RWA," 545,530.1961 ", 31.091 , 0.558 
+Saint Helena,SHN," 9,390.7750 ", -   , 0.769 
+Saint Kitts and Nevis,KNA," 158,492.4500 ", 0.750 , 0.449 
+Saint Lucia,LCA," 274,277.9412 ", 2.615 , 0.424 
+Saint Vincent and the Grenadines,VCT," 131,791.0196 ", 1.333 , 0.422 
+Saint Vincent and the Grenadines,VCT," 131,791.0196 ", 1.333 , 0.422 
+Saint Vincent and the Grenadines,VCT," 131,791.0196 ", 1.333 , 0.422 
+Saint Vincent and the Grenadines,VCT," 131,791.0196 ", 1.333 , 0.422 
+Saint Vincent and the Grenadines,VCT," 131,791.0196 ", 1.333 , 0.422 
+Saint Vincent and the Grenadines,VCT," 131,791.0196 ", 1.333 , 0.422 
+Saint Vincent and the Grenadines,VCT," 131,791.0196 ", 1.333 , 0.422 
+Saint Vincent and the Grenadines,VCT," 131,791.0196 ", 1.333 , 0.422 
+Saint Vincent and the Grenadines,VCT," 131,791.0196 ", 1.333 , 0.422 
+Saint Vincent and the Grenadines,VCT," 131,791.0196 ", 1.333 , 0.422 
+Saint Vincent and the Grenadines,VCT," 131,791.0196 ", 1.333 , 0.422 
+Saint Vincent and the Grenadines,VCT," 131,791.0196 ", 1.333 , 0.422 
+Saint Vincent and the Grenadines,VCT," 131,791.0196 ", 1.333 , 0.422 
+Saint Vincent and the Grenadines,VCT," 131,791.0196 ", 1.333 , 0.422 
+Saint Vincent and the Grenadines,VCT," 131,791.0196 ", 1.333 , 0.422 
+Saint Vincent and the Grenadines,VCT," 131,791.0196 ", 1.333 , 0.422 
+Saint Vincent and the Grenadines,VCT," 131,791.0196 ", 1.333 , 0.422 
+Saint Vincent and the Grenadines,VCT," 131,791.0196 ", 1.333 , 0.422 
+Saint Vincent and the Grenadines,VCT," 131,791.0196 ", 1.333 , 0.422 
+Saint Vincent and the Grenadines,VCT," 131,791.0196 ", 1.333 , 0.422 
+Saint Vincent and the Grenadines,VCT," 131,791.0196 ", 1.333 , 0.422 
+Saint Vincent and the Grenadines,VCT," 131,791.0196 ", 1.333 , 0.422 
+Saint Vincent and the Grenadines,VCT," 131,791.0196 ", 1.333 , 0.422 
+Saint Vincent and the Grenadines,VCT," 131,791.0196 ", 1.333 , 0.422 
+Saint Vincent and the Grenadines,VCT," 131,791.0196 ", 1.333 , 0.422 
+Saint Vincent and the Grenadines,VCT," 131,791.0196 ", 1.333 , 0.422 
+Saint Vincent and the Grenadines,VCT," 131,791.0196 ", 1.333 , 0.422 
+Saint Vincent and the Grenadines,VCT," 131,791.0196 ", 1.333 , 0.422 
+Saint Vincent and the Grenadines,VCT," 131,791.0196 ", 1.333 , 0.422 
+Saint Vincent and the Grenadines,VCT," 131,791.0196 ", 1.333 , 0.422 
+Saint Vincent and the Grenadines,VCT," 131,791.0196 ", 1.333 , 0.422 
+Saint Vincent and the Grenadines,VCT," 131,791.0196 ", 1.333 , 0.422 
+Saint Vincent and the Grenadines,VCT," 131,791.0196 ", 1.333 , 0.422 
+Saint Vincent and the Grenadines,VCT," 131,791.0196 ", 1.333 , 0.422 
+Saint Vincent and the Grenadines,VCT," 131,791.0196 ", 1.333 , 0.422 
+Saint Vincent and the Grenadines,VCT," 131,791.0196 ", 1.333 , 0.422 
+Saint Vincent and the Grenadines,VCT," 131,791.0196 ", 1.333 , 0.422 
+Saint Vincent and the Grenadines,VCT," 131,791.0196 ", 1.333 , 0.422 
+Saint Vincent and the Grenadines,VCT," 131,791.0196 ", 1.333 , 0.422 
+Saint Vincent and the Grenadines,VCT," 131,791.0196 ", 1.333 , 0.422 
+Saint Vincent and the Grenadines,VCT," 131,791.0196 ", 1.333 , 0.422 
+Saint Vincent and the Grenadines,VCT," 131,791.0196 ", 1.333 , 0.422 
+Saint Vincent and the Grenadines,VCT," 131,791.0196 ", 1.333 , 0.422 
+Saint Vincent and the Grenadines,VCT," 131,791.0196 ", 1.333 , 0.422 
+Saint Vincent and the Grenadines,VCT," 131,791.0196 ", 1.333 , 0.422 
+Saint Vincent and the Grenadines,VCT," 131,791.0196 ", 1.333 , 0.422 
+Saint Vincent and the Grenadines,VCT," 131,791.0196 ", 1.333 , 0.422 
+Saint Vincent and the Grenadines,VCT," 131,791.0196 ", 1.333 , 0.422 
+Saint Vincent and the Grenadines,VCT," 131,791.0196 ", 1.333 , 0.422 
+Saint Vincent and the Grenadines,VCT," 131,791.0196 ", 1.333 , 0.422 
+Saint Vincent and the Grenadines,VCT," 131,791.0196 ", 1.333 , 0.422 
+Saint Vincent and the Grenadines,VCT," 131,791.0196 ", 1.333 , 0.422 
+Saint Vincent and the Grenadines,VCT," 131,791.0196 ", 1.333 , 0.422 
+Saint Vincent and the Grenadines,VCT," 131,791.0196 ", 1.333 , 0.422 
+Saint Vincent and the Grenadines,VCT," 131,791.0196 ", 1.333 , 0.422 
+Saint Vincent and the Grenadines,VCT," 131,791.0196 ", 1.333 , 0.422 
+Saint Vincent and the Grenadines,VCT," 131,791.0196 ", 1.333 , 0.422 
+Saint Vincent and the Grenadines,VCT," 131,791.0196 ", 1.333 , 0.422 
+Saint Vincent and the Grenadines,VCT," 131,791.0196 ", 1.333 , 0.422 
+Saint Vincent and the Grenadines,VCT," 131,791.0196 ", 1.333 , 0.422 
+Saint Vincent and the Grenadines,VCT," 131,791.0196 ", 1.333 , 0.422 
+Saint Vincent and the Grenadines,VCT," 131,791.0196 ", 1.333 , 0.422 
+Saint Vincent and the Grenadines,VCT," 131,791.0196 ", 1.333 , 0.422 
+Saint Vincent and the Grenadines,VCT," 131,791.0196 ", 1.333 , 0.422 
+Saint Vincent and the Grenadines,VCT," 131,791.0196 ", 1.333 , 0.422 
+Saint Vincent and the Grenadines,VCT," 131,791.0196 ", 1.333 , 0.422 
+Saint Vincent and the Grenadines,VCT," 131,791.0196 ", 1.333 , 0.422 
+Saint Vincent and the Grenadines,VCT," 131,791.0196 ", 1.333 , 0.422 
+Saint Vincent and the Grenadines,VCT," 131,791.0196 ", 1.333 , 0.422 
+Saint Vincent and the Grenadines,VCT," 131,791.0196 ", 1.333 , 0.422 
+Saint Vincent and the Grenadines,VCT," 131,791.0196 ", 1.333 , 0.422 
+Saint Vincent and the Grenadines,VCT," 131,791.0196 ", 1.333 , 0.422 
+Saint Vincent and the Grenadines,VCT," 131,791.0196 ", 1.333 , 0.422 
+Saint Vincent and the Grenadines,VCT," 131,791.0196 ", 1.333 , 0.422 
+Saint Vincent and the Grenadines,VCT," 131,791.0196 ", 1.333 , 0.422 
+Saint Vincent and the Grenadines,VCT," 131,791.0196 ", 1.333 , 0.422 
+Saint Vincent and the Grenadines,VCT," 131,791.0196 ", 1.333 , 0.422 
+Saint Vincent and the Grenadines,VCT," 131,791.0196 ", 1.333 , 0.422 
+Saint Vincent and the Grenadines,VCT," 131,791.0196 ", 1.333 , 0.422 
+Saint Vincent and the Grenadines,VCT," 131,791.0196 ", 1.333 , 0.422 
+Saint Vincent and the Grenadines,VCT," 131,791.0196 ", 1.333 , 0.422 
+Samoa,WSM," 126,450.7059 ", 3.909 , 0.348 
+Sao Tome and Principe,STP," 62,663.8235 ", -   , 0.564 
+Saudi Arabia,SAU," 307,291,488.8235 ", 28.688 , 0.522 
+Senegal,SEN," 4,580,855.2353 ", 10.250 , 0.917 
+Serbia,SRB," 45,623,017.0980 ", 8.545 , 1.561 
+Seychelles,SYC," 261,338.0392 ", 1.000 , 0.388 
+Sierra Leone,SLE," 586,067.0000 ", 18.357 , 0.616 
+Slovakia,SVK," 46,714,282.8039 ", 11.941 , 0.754 
+Slovenia,SVN," 14,419,992.1765 ", 37.500 , 1.458 
+Solomon Islands,SLB," 198,788.2353 ", 8.560 , 0.276 
+Somalia,SOM," 606,678.4314 "," 1,291.152 ", 0.695 
+South Africa,ZAF," 347,720,117.6275 ", 46.128 , 0.509 
+South Sudan,SSD," 698,750.2549 ", 27.000 , 0.968 
+Spain,ESP," 246,714,337.1373 ", 407.439 , 0.706 
+Sri Lanka,LKA," 8,904,857.3725 ", 60.400 , 0.604 
+Sudan,SDN," 8,161,992.4706 "," 4,733.813 ", 0.536 
+Suriname,SUR," 2,028,266.4902 ", 2.500 , 0.635 
+Sweden,SWE," 60,344,507.3137 ", 3.000 , 0.871 
+Switzerland,CHE," 41,810,361.0784 ", 32.000 , 0.860 
+Taiwan,TWN," 169,425,071.5882 ", 54.800 , 0.383 
+Taiwan,TWN," 169,425,071.5882 ", 54.800 , 0.383 
+Taiwan,TWN," 169,425,071.5882 ", 54.800 , 0.383 
+Taiwan,TWN," 169,425,071.5882 ", 54.800 , 0.383 
+Taiwan,TWN," 169,425,071.5882 ", 54.800 , 0.383 
+Taiwan,TWN," 169,425,071.5882 ", 54.800 , 0.383 
+Taiwan,TWN," 169,425,071.5882 ", 54.800 , 0.383 
+Taiwan,TWN," 169,425,071.5882 ", 54.800 , 0.383 
+Taiwan,TWN," 169,425,071.5882 ", 54.800 , 0.383 
+Taiwan,TWN," 169,425,071.5882 ", 54.800 , 0.383 
+Taiwan,TWN," 169,425,071.5882 ", 54.800 , 0.383 
+Taiwan,TWN," 169,425,071.5882 ", 54.800 , 0.383 
+Taiwan,TWN," 169,425,071.5882 ", 54.800 , 0.383 
+Taiwan,TWN," 169,425,071.5882 ", 54.800 , 0.383 
+Taiwan,TWN," 169,425,071.5882 ", 54.800 , 0.383 
+Taiwan,TWN," 169,425,071.5882 ", 54.800 , 0.383 
+Tajikistan,TJK," 7,025,519.9216 ", 56.034 , 0.961 
+Thailand,THA," 142,272,034.8627 ", 130.175 , 0.545 
+Togo,TGO," 1,261,002.1569 ", 5.929 , 0.671 
+Tonga,TON," 82,216.8235 ", 0.800 , 0.351 
+Trinidad and Tobago,TTO," 25,689,130.1373 ", 0.889 , 0.385 
+Tunisia,TUN," 16,855,782.8431 ", 27.077 , 0.808 
+Turkey,TUR," 201,170,169.7059 ", 19.565 , 0.452 
+Turkmenistan,TKM," 41,402,557.4510 ", -   , 1.114 
+Turks and Caicos Islands,TCA," 126,791.8387 ", 0.800 , 0.002 
+Tuvalu,TUV," 8,997.5806 ", 0.750 , 0.426 
+Uganda,UGA," 1,897,322.4118 ", 25.538 , 0.529 
+Ukraine,UKR," 452,506,833.4510 ", 58.524 , 1.230 
+United Arab Emirates,ARE," 91,621,030.8039 ", -   , 0.497 
+United Kingdom,GBR," 548,347,898.0392 ", 112.194 , 0.544 
+United States,USA," 5,230,267,202.3529 ", 322.725 , 0.561 
+Uruguay,URY," 5,604,473.6863 ", 1.636 , 0.455 
+Uzbekistan,UZB," 103,560,881.4118 ", 0.667 , 1.132 
+Vanuatu,VUT," 84,345.5294 ", 4.679 , 0.344 
+Venezuela,VEN," 125,970,331.3333 "," 1,090.393 ", 0.402 
+Venezuela,VEN," 125,970,331.3333 "," 1,090.393 ", 0.402 
+Venezuela,VEN," 125,970,331.3333 "," 1,090.393 ", 0.402 
+Venezuela,VEN," 125,970,331.3333 "," 1,090.393 ", 0.402 
+Venezuela,VEN," 125,970,331.3333 "," 1,090.393 ", 0.402 
+Venezuela,VEN," 125,970,331.3333 "," 1,090.393 ", 0.402 
+Venezuela,VEN," 125,970,331.3333 "," 1,090.393 ", 0.402 
+Venezuela,VEN," 125,970,331.3333 "," 1,090.393 ", 0.402 
+Venezuela,VEN," 125,970,331.3333 "," 1,090.393 ", 0.402 
+Venezuela,VEN," 125,970,331.3333 "," 1,090.393 ", 0.402 
+Venezuela,VEN," 125,970,331.3333 "," 1,090.393 ", 0.402 
+Venezuela,VEN," 125,970,331.3333 "," 1,090.393 ", 0.402 
+Venezuela,VEN," 125,970,331.3333 "," 1,090.393 ", 0.402 
+Venezuela,VEN," 125,970,331.3333 "," 1,090.393 ", 0.402 
+Venezuela,VEN," 125,970,331.3333 "," 1,090.393 ", 0.402 
+Venezuela,VEN," 125,970,331.3333 "," 1,090.393 ", 0.402 
+Vietnam,VNM," 71,698,791.3922 ", 382.400 , 0.494 
+Vietnam,VNM," 71,698,791.3922 ", 382.400 , 0.494 
+Vietnam,VNM," 71,698,791.3922 ", 382.400 , 0.494 
+Vietnam,VNM," 71,698,791.3922 ", 382.400 , 0.494 
+Vietnam,VNM," 71,698,791.3922 ", 382.400 , 0.494 
+Vietnam,VNM," 71,698,791.3922 ", 382.400 , 0.494 
+Vietnam,VNM," 71,698,791.3922 ", 382.400 , 0.494 
+Vietnam,VNM," 71,698,791.3922 ", 382.400 , 0.494 
+Vietnam,VNM," 71,698,791.3922 ", 382.400 , 0.494 
+Vietnam,VNM," 71,698,791.3922 ", 382.400 , 0.494 
+Vietnam,VNM," 71,698,791.3922 ", 382.400 , 0.494 
+Vietnam,VNM," 71,698,791.3922 ", 382.400 , 0.494 
+Vietnam,VNM," 71,698,791.3922 ", 382.400 , 0.494 
+Vietnam,VNM," 71,698,791.3922 ", 382.400 , 0.494 
+Vietnam,VNM," 71,698,791.3922 ", 382.400 , 0.494 
+Vietnam,VNM," 71,698,791.3922 ", 382.400 , 0.494 
+Wallis and Futuna,WLF," 25,362.3500 ", 0.333 , 0.359 
+Yemen,YEM," 11,063,427.3725 ", 52.857 , 0.246 
+Zambia,ZMB," 3,380,305.6078 ", 3.714 , 0.612 
+Zimbabwe,ZWE," 11,405,477.9216 ", 78.250 , 0.279 
