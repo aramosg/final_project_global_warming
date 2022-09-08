@@ -7,7 +7,7 @@ The cost of weather increase and natural disasters- worldwide view
  Keywords: Earth temperature – natural disasters - cost
 
 The following link address slides with the following information: 
-[slides](https://docs.google.com/presentation/d/1NoE9vUd6RThqdDHh4d1OVyLSLFeM9awF/edit?usp=sharing&ouid=114301235931032176624&rtpof=true&sd=true) 
+[slides](https://docs.google.com/presentation/d/1PCm1xK9A5wum8rRdRCrOABnPKWXaocHp/edit?usp=sharing&ouid=114301235931032176624&rtpof=true&sd=true) 
 
 ## Reason why we selected the topic 
 
@@ -113,61 +113,104 @@ Interactive map featuring dataset worldwide information using  interactive and f
 
 Further exploration using tables enabling interactive filtering of dataset.
 
+- ![Dash4]()
+Jupyter Notebooks with machine learning models of the project. 
+
+
 ### Logistic regression Model for vulnerable countries
 Tools: Python Jupyter notebook 
 
+-Preliminary data pre-processing:
+In order to establish a machine learning model we performed first descriptive statistics to find the dirstibution o the data. THen We ran correlation test and visualizations using Spearman and Kendall in order to find relationships or trend in the data. It was followed by Salina data to understand the behavior as whole and finally plotting the distributions to check relations. 
+After all this we tested using the fitting models. 
 
 ### Machine learning model 
 - Tools: Python for Linear Regression, Robust Linear Regression, Random Forest Regressor Model 
 They will be applied for each selected country. 
+Libraries: Pandas SciKitLearn sklearn scipy statsmodels random numpy pydot multiprocessing  Visualization: seaborn matplotlib mpl_toolkits
 
 
 - To test: 
-Equation:
+start function: 
 Economic damage as share of GDP = f (Total number of deaths, people affected per 100k, CO2 emissions, population, temperature anomalies, total count disasters)
 
 
 
 
-- Preliminary data pre-processing:
-
-"Vulnerable" countries were selected according to economy reports. 
-
-Articles: 
-
-[VulnerableCountries](https://germanwatch.org/sites/default/files/Resumen%20Indice%20de%20Riesgo%20Clim%C3%A1tico%20Global%202021.pdf)
-
-[ArticlePakistan](https://www.nature.com/articles/d41586-022-02813-6?utm_source=Nature+Briefing&utm_ca[…]02&utm_medium=email&utm_term=0_c9dfd39373-dc4c023d09-45884258)
+- Model selection
+Choose model that best answers our questions (tells the story) using previous statistical analysis as framework. 
+Reason: variables with strong outliers This models, consider this characteristic.
+![ModelSelection]()
 
 
--  Decision making process: Preliminary feature engineering and feature selection.
-Multiple Models were tested to understand variables and their relevance using the equation. 
+### Decision making process
+Taking into consideration previous results:
+Linear Regression Model
+Robust Linear Regression Model (Huber, RANSAC, Theil Sen)
+Random Forest Regressor Model 
 
-Data was split into training and testing sets. And the multiple models were run for selected countries.  
+
+- Model implementation: 
+
+Steps in each model type was as follows: Split of time series, Training and testing (linear regression or Huber and Random Forest.
+The results for the machine learning models were as follows
+
+![Table2]()
+
+Best model that fit was Random Forest with an R-square of 85%. 
 
 
 ### Explanation of model choice, limitations and benefits.
 
- Model of choice: Linear Regression, Random Forest.
 
+#### Linear Regression: 
+- Limitations: 
+Lack of continuity in certain variables 
+Affected by outlayers
 
-Linear Regression Model
-Random Forest Regressor Model 
- 
-- Limitation: Lack of continuity in certain variables 
-Outliers due to the nature of measured variable
-Dealing with discrete variables 
-
-- Benefits: Preserve data absolute values
+- Benefits: 
+Preserve data absolute values
 Weighted outliers
 Statistic weight
 Model allows to fit new variables
 Prediction potential
 
 
+#### Random Forest
+- Limitations: 
+Can easily lose interpretability
+Does not allow out of sample predictions
+Short them relationships are not reached (time frame) 
+
+- Benefits: 
+Model distribution does not matter
+Does not require scaling of data
+Same start function
+Allows to see behavior in exogenous variables (domino effect) 
+
+Recommendations for future analysis for this product developemnt: 
+Cointegrated Var Model:
+Make casuality Granger Test
+This would allow long term relationships and perhaps able to run predictions. 
+
+
+
+Conclusions:
+- Is there a correlation between the increase of temperature of the sampled country and the number of natural disasters? Not a direct correlation, but visualization help to form new hypothesis of chained impact variables (nearby countries related). We came to recommendations 
+
+- Can we identify the most relevant variables that can predict the impact to GDP due to natural disasters? What are those? CO2 emissions, people affected, the temperature anomalies and number of deaths. 
+
+- Which model(s) can more accurately predict the impact to GDP due to natural disasters? 
+Random forest: but due to limitations it can't predict out of sample.
+Linear Regression: good to predict but it needs readjustments. 
+
+
+
 ### Telling the story
-Slides and navigation in webpage 
-[Link to Homepage]() 
+
+[Slides](https://docs.google.com/presentation/d/1PCm1xK9A5wum8rRdRCrOABnPKWXaocHp/edit?usp=sharing&ouid=114301235931032176624&rtpof=true&sd=true) and navigation in webpage 
+
+[Homepage]() 
 
 
 
