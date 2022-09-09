@@ -113,7 +113,7 @@ Interactive map featuring dataset worldwide information using  interactive and f
 
 Further exploration using tables enabling interactive filtering of dataset.
 
-- ![Dash4]()
+- ![Dash4](resources/jupyternotebook.png)
 Jupyter Notebooks with machine learning models of the project. 
 
 
@@ -155,7 +155,8 @@ Random Forest Regressor Model
 Steps in each model type was as follows: Split of time series, Training and testing (linear regression or Huber and Random Forest.
 The results for the machine learning models were as follows
 
-![Table2]()
+
+![Table2](resources/Table2results.png)
 
 Best model that fit was Random Forest with an R-square of 85%. 
 
@@ -210,7 +211,7 @@ Linear Regression: good to predict but it needs readjustments.
 
 [Slides](https://docs.google.com/presentation/d/1PCm1xK9A5wum8rRdRCrOABnPKWXaocHp/edit?usp=sharing&ouid=114301235931032176624&rtpof=true&sd=true) and navigation in webpage 
 
-[Homepage]() 
+
 
 
 
