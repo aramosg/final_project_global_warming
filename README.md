@@ -140,7 +140,8 @@ Economic damage as share of GDP = f (Total number of deaths, people affected per
 - Model selection
 Choose model that best answers our questions (tells the story) using previous statistical analysis as framework. 
 Reason: variables with strong outliers This models, consider this characteristic.
-![ModelSelection]()
+
+![ModelSelection](resources/modelselection.png)
 
 
 ### Decision making process
